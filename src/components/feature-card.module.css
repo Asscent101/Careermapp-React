@@ -27,24 +27,6 @@
 .rootClassName2 {
   align-self: flex-start;
 }
-.rootClassName3 {
-  align-self: flex-start;
-}
-.rootClassName4 {
-  align-self: flex-start;
-}
-.rootClassName5 {
-  align-self: flex-start;
-}
-.rootClassName6 {
-  align-self: flex-start;
-}
-.rootClassName7 {
-  align-self: flex-start;
-}
-.rootClassName8 {
-  align-self: flex-start;
-}
 @media(max-width: 479px) {
   .text1 {
     margin-bottom: var(--dl-space-space-tripleunit);

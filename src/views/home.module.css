@@ -74,7 +74,7 @@
 .text03 {
   margin-bottom: var(--dl-space-space-doubleunit);
 }
-.text06 {
+.text04 {
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .image {
@@ -134,10 +134,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.text07 {
-  font-size: 25px;
+.text06 {
   max-width: 600px;
   text-align: center;
+}
+.text07 {
+  white-space: pre-wrap;
 }
 .Features1 {
   display: flex;
@@ -146,44 +148,6 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-}
-.icon {
-  width: 24px;
-  height: 24px;
-}
-.container02 {
-  flex: 0 0 auto;
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-}
-.Features2 {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.Features3 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  padding: var(--dl-space-space-doubleunit);
-  z-index: 100;
-  max-width: 1110px;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.text11 {
-  max-width: 600px;
-  text-align: center;
-}
-.text12 {
-  white-space: pre-wrap;
 }
 .CTA {
   width: 100%;
@@ -195,7 +159,7 @@
   justify-content: center;
   background-color: var(--dl-color-purple-default);
 }
-.container03 {
+.container02 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -207,6 +171,14 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+.container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .container04 {
   flex: 0 0 auto;
   width: auto;
@@ -215,29 +187,21 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.container05 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.text13 {
+.text08 {
   color: var(--dl-color-purple-100);
 }
-.container06 {
+.container05 {
   flex: 1;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.text14 {
+.text09 {
   color: var(--dl-color-gray-300);
   max-width: 500px;
 }
-.container07 {
+.container06 {
   width: 520px;
   display: flex;
   position: relative;
@@ -273,7 +237,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
-.container08 {
+.container07 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -285,7 +249,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.container09 {
+.container08 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   margin-top: var(--dl-space-space-doubleunit);
@@ -300,7 +264,7 @@
   opacity: 0.2;
   background-color: var(--dl-color-gray-white);
 }
-.container10 {
+.container09 {
   width: 100%;
   display: flex;
   margin-top: var(--dl-space-space-unit);
@@ -308,7 +272,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.Text15 {
+.Text10 {
   color: var(--dl-color-gray-300);
   margin-top: var(--dl-space-space-unit);
 }
@@ -327,34 +291,34 @@
     line-height: var(--dl-size-size-tripleunit);
     list-style-position: inside;
   }
-  .text10 {
+  .text05 {
     text-align: center;
   }
   .CTA {
     height: 251px;
   }
-  .container03 {
+  .container02 {
     justify-content: center;
   }
-  .container04 {
+  .container03 {
     align-items: center;
   }
-  .container05 {
+  .container04 {
     align-self: center;
     align-items: flex-start;
   }
-  .text13 {
+  .text08 {
     width: 383px;
     height: 35px;
     align-self: center;
     text-align: center;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .text14 {
+  .text09 {
     align-self: flex-start;
     text-align: left;
   }
-  .container07 {
+  .container06 {
     display: none;
   }
 }
@@ -372,17 +336,17 @@
   .image {
     height: 372px;
   }
-  .text10 {
+  .text05 {
     font-size: 40px;
   }
-  .container09 {
+  .container08 {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .container10 {
+  .container09 {
     flex-direction: column;
   }
-  .Text15 {
+  .Text10 {
     margin-top: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -403,13 +367,10 @@
     width: 383px;
     height: 264px;
   }
-  .text07 {
+  .text05 {
     text-align: center;
   }
-  .text10 {
-    text-align: center;
-  }
-  .text11 {
+  .text06 {
     text-align: center;
   }
 }
