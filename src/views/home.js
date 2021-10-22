@@ -30,7 +30,7 @@ const Home = () => {
             <h1
               className={` ${styles['text03']} ${projectStyles['subtitle2']} `}
             >
-              The worldâs first AI-powered career coach app trained on millions
+              The world's first AI-powered career coach app trained on millions
               of data points.
             </h1>
             <h1
