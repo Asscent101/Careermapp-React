@@ -167,7 +167,7 @@ const Home = () => {
       </div>
       <footer className={styles['Footer']}>
         <span className={styles['text22']}>
-          Â© 2021 CareerMapp, All Rights Reserved.
+          Copyright 2021 CareerMapp, All Rights Reserved.
         </span>
         <div className={styles['IconGroup']}>
           <a
