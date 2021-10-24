@@ -7,6 +7,13 @@ import FeatureCard from '../components/feature-card'
 import projectStyles from '../style.module.css'
 import styles from './home.module.css'
 
+
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-000000-01');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+
 const Home = () => {
   return (
     <div className={styles['container']}>
