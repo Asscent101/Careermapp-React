@@ -10,7 +10,7 @@ import styles from './home.module.css'
 
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-000000-01');
+ReactGA.initialize('G-C5CH9QVSCF');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 
