@@ -27,8 +27,81 @@
 .rootClassName2 {
   align-self: flex-start;
 }
+.rootClassName3 {
+  align-self: flex-start;
+}
+.rootClassName4 {
+  align-self: flex-start;
+}
+.rootClassName5 {
+  align-self: flex-start;
+}
+.rootClassName6 {
+  align-self: flex-start;
+}
+.rootClassName7 {
+  align-self: flex-start;
+}
+.rootClassName8 {
+  align-self: flex-start;
+}
+.rootClassName9 {
+  align-self: flex-start;
+}
+.rootClassName10 {
+  align-self: flex-start;
+}
+.rootClassName11 {
+  align-self: flex-start;
+}
+.rootClassName12 {
+  margin: var(--dl-space-space-unit);
+}
+.rootClassName13 {
+  margin: var(--dl-space-space-unit);
+}
+.rootClassName14 {
+  margin: var(--dl-space-space-unit);
+}
+@media(max-width: 991px) {
+  .rootClassName12 {
+    align-self: flex-end;
+  }
+  .rootClassName13 {
+    align-self: flex-end;
+  }
+  .rootClassName14 {
+    align-self: flex-end;
+  }
+}
+@media(max-width: 767px) {
+  .rootClassName6 {
+    width: 100%;
+  }
+  .rootClassName7 {
+    width: 100%;
+  }
+  .rootClassName8 {
+    width: 100%;
+  }
+  .rootClassName9 {
+    width: 100%;
+  }
+  .rootClassName10 {
+    width: 100%;
+  }
+  .rootClassName11 {
+    width: 100%;
+  }
+}
 @media(max-width: 479px) {
   .text1 {
     margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .rootClassName6 {
+    align-self: flex-start;
+  }
+  .rootClassName9 {
+    align-self: flex-start;
   }
 }

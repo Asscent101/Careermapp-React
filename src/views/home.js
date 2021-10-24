@@ -14,136 +14,178 @@ const Home = () => {
         <title>Careermapp</title>
         <meta property="og:title" content="Careermapp" />
       </Helmet>
-      <div className={styles['Main']}>
-        <div className={styles['BlurBackground']}></div>
-        <header className={styles['Header']}>
-          <h1>Careermapp</h1>
-          <div className={styles['Logo']}></div>
-        </header>
-        <div className={styles['Hero']}>
-          <div className={styles['container01']}>
-            <h1
-              className={` ${styles['text01']} ${projectStyles['headline1']} `}
-            >
-              <span>Your career happens now.</span>
-            </h1>
-            <h1
-              className={` ${styles['text03']} ${projectStyles['subtitle2']} `}
-            >
-              The world's first AI-powered career coach app trained on millions
-              of data points.
-            </h1>
-            <h1
-              className={` ${styles['text04']} ${projectStyles['mediumLabel']} `}
-            >
-              Join our beta
-            </h1>
-            <EmailForm rootClassName="rootClassName"></EmailForm>
-          </div>
+      <header className={styles['Header']}>
+        <span className={styles['text']}>Careermapp</span>
+        <div>
           <img
             alt="image"
-            src="/playground_assets/group%204-1000h.png"
+            src="/playground_assets/instagram-1000h.png"
             className={styles['image']}
           />
         </div>
+      </header>
+      <div className={styles['Hero']}>
+        <div className={styles['container1']}>
+          <h1 className={` ${styles['text01']} ${projectStyles['headline1']} `}>
+            <span>
+              Your career
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className={styles['text03']}>happens now</span>
+            <span></span>
+          </h1>
+          <h2 className={` ${styles['text05']} ${projectStyles['subtitle2']} `}>
+            The world&apos;s first AI-powered career coach powered by millions
+            of data points.
+          </h2>
+          <EmailForm rootClassName="rootClassName6"></EmailForm>
+        </div>
         <img
           alt="image"
-          src="/playground_assets/turquoise-circle.svg"
-          className={styles['TurquoiseCirble']}
+          src="/playground_assets/business%20man%20chart%20graph%20analytics%20statistics%20arrow%20increase-1000h.png"
+          className={styles['Hero-image-1']}
         />
+        <p className={styles['text06']}>
+          New dynamics are making career planning harder and more important to
+          your long term success.
+        </p>
         <img
           alt="image"
           src="/playground_assets/purple-circle.svg"
-          className={styles['PurpleCircle']}
+          image_src="/playground_assets/purple-circle.svg"
+          className={styles['Background-blur-purple']}
         />
         <img
           alt="image"
           src="/playground_assets/left.svg"
-          className={styles['Left']}
+          className={styles['Background-arrows']}
         />
         <img
           alt="image"
-          src="/playground_assets/right.svg"
-          className={styles['Right']}
+          src="/playground_assets/turquoise-circle.svg"
+          className={styles['ackground-blur-green']}
         />
       </div>
-      <div className={styles['Features']}>
-        <h2 className={` ${projectStyles['headline2']} ${styles['text05']} `}>
-          Get the career you want with our AI coach.
-        </h2>
-        <span className={styles['text06']}>
-          <span className={styles['text07']}>
-            No matter if you are an experienced professional or a recent
-            graduate, our AI coach can help you move towards your dream career.
+      <div className={styles['Stats']}>
+        <div className={styles['Stat']}>
+          <h1 className={styles['text07']}>
+            <span>12</span>
+          </h1>
+          <span className={styles['text09']}>
+            Average number of jobs in a persons lifetime
+          </span>
+        </div>
+        <div className={styles['Stat1']}>
+          <h1 className={styles['text10']}>
+            <span>80%</span>
+          </h1>
+          <span className={styles['text12']}>
+            Of persons under 25 would consider switching careers
+          </span>
+        </div>
+        <div className={styles['Stat2']}>
+          <h1 className={styles['text13']}>
+            <span>55%</span>
+          </h1>
+          <span className={styles['text15']}>
+            Of employees will require significant upskilling by 2025
+          </span>
+        </div>
+        <div className={styles['Stat3']}>
+          <h1 className={styles['text16']}>1 in 4</h1>
+          <span className={styles['text17']}>
+            Will become an entrepreneur or solotrepreneur
+          </span>
+        </div>
+      </div>
+      <div className={styles['container2']}>
+        <h1 className={` ${styles['text18']} ${projectStyles['headline3']} `}>
+          <span>
+            Careermapp helps you
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
           </span>
+          <span className={styles['text20']}>plan your caeer</span>
+        </h1>
+      </div>
+      <div>
+        <div className={styles['container3']}>
+          <img
+            alt="image"
+            src="b56695cf-a562-4dda-8044-ad18444858a6"
+            className={` ${styles['image1']} ${projectStyles['Image']} `}
+          />
+          <div
+            className={` ${styles['container4']} ${projectStyles['Box-1']} `}
+          >
+            <FeatureCard
+              text="In a world of endless options, find the one path right for you"
+              title="Career Clarity"
+              image_src="/playground_assets/05.svg"
+              rootClassName="rootClassName14"
+            ></FeatureCard>
+          </div>
+          <div
+            className={` ${styles['container5']} ${projectStyles['Box-1']} `}
+          >
+            <FeatureCard
+              text="No need to spend hours on research and answering questions.\n"
+              title="Save Time"
+              image_src="/playground_assets/07.svg"
+              rootClassName="rootClassName12"
+            ></FeatureCard>
+          </div>
+          <div
+            className={` ${styles['container6']} ${projectStyles['Box-1']} `}
+          >
+            <FeatureCard
+              text="Identify experiences and skills that will set you apart from the the rest"
+              title="Personalised Path"
+              image_src="c65ae83f-788d-4687-ab03-1e10f4f27082"
+              rootClassName="rootClassName13"
+            ></FeatureCard>
+          </div>
+        </div>
+      </div>
+      <div className={styles['container7']}>
+        <span className={styles['text21']}>
+          Join 1400 other career planners and make your own path.
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
         </span>
-        <div className={styles['Features1']}>
-          <FeatureCard
-            text="What experience do you need to get a product management job at Google? How does an MBA improve your chances of joining McKinsey? "
-            title="Answer career questions"
-            rootClassName="rootClassName1"
-          ></FeatureCard>
-          <FeatureCard
-            text="We analyse millions of data points to provide you actionable and personalised steps to increase your probabilities of success."
-            title="Actionable suggestions"
-            image_src="/playground_assets/03.svg"
-            rootClassName="rootClassName"
-          ></FeatureCard>
-          <FeatureCard
-            text="Identify experiences and skills that will set you apart from the the rest."
-            title="Set yourself apart"
-            image_src="/playground_assets/02.svg"
-            rootClassName="rootClassName2"
-          ></FeatureCard>
+        <EmailForm rootClassName="rootClassName7"></EmailForm>
+      </div>
+      <footer className={styles['Footer']}>
+        <span className={styles['text22']}>
+          Â© 2021 CareerMapp, All Rights Reserved.
+        </span>
+        <div className={styles['IconGroup']}>
+          <a
+            href="https://www.instagram.com/careermapp/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className={styles['link']}
+          >
+            <svg
+              viewBox="0 0 877.7142857142857 1024"
+              className={` ${styles['icon']} ${projectStyles['thqLink']} `}
+            >
+              <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+            </svg>
+          </a>
         </div>
-      </div>
-      <div className={styles['CTA']}>
-        <div className={styles['container02']}>
-          <div className={styles['container03']}>
-            <div className={styles['container04']}>
-              <h1 className={styles['text08']}>Get started now</h1>
-              <div className={styles['container05']}>
-                <span
-                  className={` ${styles['text09']} ${projectStyles['lead1']} `}
-                >
-                  Get early access
-                </span>
-              </div>
-            </div>
-            <EmailForm rootClassName="rootClassName1"></EmailForm>
-          </div>
-          <div className={styles['container06']}>
-            <img
-              alt="image"
-              src="/playground_assets/iPhoneX-1000w.png"
-              image_src="/playground_assets/iPhoneX-1000w.png"
-              className={styles['image1']}
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iPhoneX-1000w.png"
-              image_src="/playground_assets/iPhoneX-1000w.png"
-              className={styles['image2']}
-            />
-          </div>
-        </div>
-      </div>
-      <div className={styles['Footer']}>
-        <footer className={styles['container07']}>
-          <div className={styles['container08']}></div>
-          <div className={styles['Divider']}></div>
-          <div className={styles['container09']}>
-            <span className={` ${styles['Text10']} ${projectStyles['body2']} `}>
-              Â© 2021 CareerMapp. All rights reserved
-            </span>
-          </div>
-        </footer>
-      </div>
+      </footer>
+      <div className={styles['BlurBackground']}></div>
     </div>
   )
 }
