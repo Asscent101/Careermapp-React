@@ -136,7 +136,7 @@ const Home = () => {
             className={` ${styles['container5']} ${projectStyles['Box-1']} `}
           >
             <FeatureCard
-              text="No need to spend hours on research and answering questions.\n"
+              text="No need to spend hours on research and answering questions."
               title="Save Time"
               image_src="/playground_assets/07.svg"
               rootClassName="rootClassName12"
