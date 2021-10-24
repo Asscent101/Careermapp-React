@@ -119,7 +119,7 @@ const Home = () => {
         <div className={styles['container3']}>
           <img
             alt="image"
-            src="b56695cf-a562-4dda-8044-ad18444858a6"
+            src="/playground_assets/career_mountain-1200w.png"
             className={` ${styles['image1']} ${projectStyles['Image']} `}
           />
           <div
@@ -148,7 +148,7 @@ const Home = () => {
             <FeatureCard
               text="Identify experiences and skills that will set you apart from the the rest"
               title="Personalised Path"
-              image_src="c65ae83f-788d-4687-ab03-1e10f4f27082"
+              image_src="/playground_assets/06.svg"
               rootClassName="rootClassName13"
             ></FeatureCard>
           </div>
