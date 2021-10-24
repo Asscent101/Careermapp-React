@@ -148,7 +148,7 @@ const Home = () => {
             <FeatureCard
               text="Identify experiences and skills that will set you apart from the the rest"
               title="Personalised Path"
-              image_src="/playground_assets/06.svg"
+              image_src="/playground_assets/02.svg"
               rootClassName="rootClassName13"
             ></FeatureCard>
           </div>
